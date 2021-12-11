@@ -1,0 +1,478 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7256000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1649000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user navigates to Company on the main page and clicks Add News",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_navigates_to_Company_on_the_main_page_and_clicks_Add_News()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T22:56:00.806Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3252000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Azul.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "TC-001 Select the type of information",
+        "description": "",
+        "id": ";tc-001-select-the-type-of-information",
+        "after": [
+          {
+            "result": {
+              "duration": 1002000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Azul.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1161000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user can select the type of information",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.user_can_select_the_type_of_information()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZULL-749"
+          },
+          {
+            "name": "@ZULL-743"
+          },
+          {
+            "name": "@ZULL-748"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7134000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1651000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user navigates to Company on the main page and clicks Add News",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_navigates_to_Company_on_the_main_page_and_clicks_Add_News()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T22:56:15.226Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1685000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Azul.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 41,
+        "name": "TC-002 Add tags under details",
+        "description": "",
+        "id": ";tc-002-add-tags-under-details",
+        "after": [
+          {
+            "result": {
+              "duration": 1021000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Azul.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 893000000,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "the user types the world in the Title inputbox",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_types_the_world_in_the_Title_inputbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3127000000,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "the user clicks on Details",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_clicks_on_Details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 114000000,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "the user types picture in the tags inputbox",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_types_picture_in_the_tags_inputbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4143000000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "the user clicks on Save",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_clicks_on_Save()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "user is able to add tags under details",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.user_is_able_to_add_tags_under_details()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZULL-749"
+          },
+          {
+            "name": "@ZULL-744"
+          },
+          {
+            "name": "@ZULL-748"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6832000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1646000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user navigates to Company on the main page and clicks Add News",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_navigates_to_Company_on_the_main_page_and_clicks_Add_News()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T22:56:34.995Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1614000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Azul.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 62,
+        "name": "TC-003 Select Text, HTML, and Visual Editor",
+        "description": "",
+        "id": ";tc-003-select-text--html--and-visual-editor",
+        "after": [
+          {
+            "result": {
+              "duration": 1058000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Azul.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 983000000,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "the user clicks on Text, HTML, and Visual Editor",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_clicks_on_Text_HTML_and_Visual_Editor()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "User is able to select Text, HTML, and Visual Editor",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.user_is_able_to_select_Text_HTML_and_Visual_Editor()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZULL-749"
+          },
+          {
+            "name": "@ZULL-745"
+          },
+          {
+            "name": "@ZULL-748"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6795000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "the user is logged in",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_is_logged_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1228000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user navigates to Company on the main page and clicks Add News",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_navigates_to_Company_on_the_main_page_and_clicks_Add_News()"
+            },
+            "keyword": "When "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-19T22:56:47.137Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1488000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Azul.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 80,
+        "name": "TC-004 Send news",
+        "description": "",
+        "id": ";tc-004-send-news",
+        "after": [
+          {
+            "result": {
+              "duration": 1039000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.Azul.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 788000000,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "the user types Expert Roundup: How Technology is Shaping the Future of Life Sciences in the Title inputbox",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_types_Expert_Roundup_How_Technology_is_Shaping_the_Future_of_Life_Sciences_in_the_Title_inputbox()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 324000000,
+              "status": "passed"
+            },
+            "line": 82,
+            "name": "the user typeS Industry leaders share perspectives on moving the life sciences industry forward under the text.",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_typeS_Industry_leaders_share_perspectives_on_moving_the_life_sciences_industry_forward_under_the_text()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 139000000,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "the user clicks on Save and add",
+            "match": {
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_user_clicks_on_Save_and_add()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2001000000,
+              "status": "passed"
+            },
+            "line": 84,
+            "name": "the page title contains \"Company\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Company\"",
+                  "offset": 24
+                }
+              ],
+              "location": "com.Azul.step_definitions.addnewsStepDf.the_page_title_contains(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@ZULL-749"
+          },
+          {
+            "name": "@ZULL-746"
+          },
+          {
+            "name": "@ZULL-748"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/1_ZULL-747.feature",
+    "tags": [
+      {
+        "name": "@ZULL-749",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

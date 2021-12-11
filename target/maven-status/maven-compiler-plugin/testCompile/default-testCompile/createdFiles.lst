@@ -1,0 +1,11 @@
+com\Azul\utilities\ConfigurationReader.class
+com\Azul\pages\BasePage.class
+com\Azul\pages\ImportantInfoPage.class
+com\Azul\step_definitions\addnewsStepDf.class
+com\Azul\runners\CukesRunner.class
+com\Azul\utilities\BrowserUtils$1.class
+com\Azul\utilities\BrowserUtils.class
+com\Azul\pages\CompanyPage.class
+com\Azul\pages\LoginPage.class
+com\Azul\step_definitions\Hooks.class
+com\Azul\utilities\Driver.class
